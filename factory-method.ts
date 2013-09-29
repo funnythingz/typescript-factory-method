@@ -51,7 +51,7 @@ module PATTERN {
 
     }
 
-    class Saxphone extends WindInstrumentProduct {
+    export class Saxphone extends WindInstrumentProduct {
 
         play(): string {
             return 'paaaahhh';
@@ -59,7 +59,7 @@ module PATTERN {
 
     }
 
-    class Trumpet extends WindInstrumentProduct {
+    export class Trumpet extends WindInstrumentProduct {
 
         play(): string {
             return 'poooohhh';
